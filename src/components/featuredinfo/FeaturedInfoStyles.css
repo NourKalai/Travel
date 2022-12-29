@@ -1,8 +1,5 @@
 .featured-container {
     color: rgb(43, 61, 226);
-    padding-left: 50;
-    width: 350px;
-    height: 200px;
     display: flex;
     justify-content: space-between;
   }

@@ -63,7 +63,7 @@ export default function Chart() {
   return (
     
     <div className="chart-container">
-      <h3 className="chartTitle">User Analystics</h3>
+      <h3 className="chartTitle">User Analytics</h3>
       <ResponsiveContainer width="100%" aspect={4 / 1}>
         <LineChart data={data}>
           <XAxis dataKey="name" stroke="#5550bd" />
