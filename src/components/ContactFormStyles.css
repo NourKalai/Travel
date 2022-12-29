@@ -1,0 +1,52 @@
+.from-container {
+    margin:4rem 6rem;
+    color:#c7ca09;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    height: 80%;
+}
+/* .from-container form {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin:auto;
+} */
+.from-container input {
+    height:3rem;
+    padding:0 1rem;
+    
+    margin-bottom:2rem;
+    border-radius: 0.3rem;
+    border:1px slid #be0909;
+}
+.from-container textarea {
+    padding:1rem;
+    margin-bottom:2rem;
+    border-radius: 0.3rem;
+    border:1px slid #7a0707;
+}
+.from-container button {
+    
+        width:80%;
+        border-radius:12px;
+        padding:10px;
+        background-color: rgb(90,120,190);
+        color:#fff;
+        font-size:20px;
+        font-weight: bold;
+
+
+}
+@media screen and (max-width:850px) {
+    .from-container{
+        margin:4rem 2rem;
+    }
+    .from-container form {
+        padding-top: 2rem;
+        width: 90%;
+    }
+    
+}

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    /* background: url('../assets/1.jpg'); */
+    background-size: 'cover';
+    background-color: #fff
+}
+
+.form-container {
+    background-color: #1e2027;
+    width: 350px;
+    height: 400px;
+    margin:auto;
+    margin-top: 80px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    color: rgb(241, 229, 229);
+    justify-content: center;
+    padding-left: 50;
+    border-color: #fff;
+    box-sizing: border-box;
+    
+}
+
+input,button {
+    appearance:initial;
+}
+.form-inner{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+form {
+    display: block;
+    position: relative;
+
+}
+form::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top:-5px;
+    bottom:-5px;
+    right:-5px;
+    left: -5px;
+    z-index: -1;
+}
+/* form .form-container {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    padding:30px;
+    z-index: 2;
+} */
+form .form-container h2 {
+
+        color: rgb(11, 147, 189);
+        text-align: center;
+        text-transform: capitalize;
+        padding-bottom: 30px;
+        padding-top: 20px;
+}
+form .form-container .form-group{
+ 
+        width:100%;
+        /* outline:none; */
+        background-color: transparent;
+        color: rgb(239, 245, 240);
+        padding:1px 6px;
+        font-size: 18px;
+        font-weight: bold;
+        
+    
+
+
+}
+.form-inner .form-group label{
+display: block;
+color:rgb(97, 77, 10);
+font-size: 12px;
+transition:0.4s;
+font-weight: 500;
+margin-bottom: 30px;
+margin-left: 600px;
+
+}
+.form-inner .form-group:focus-within label{
+    color:aqua;
+}
+form .form-container .form-group 
+    input{
+        width:100%;
+        margin:10px 0;
+        /* outline:none; */
+        background-color: transparent;
+        color: #fff;
+        padding:10px 6px;
+        font-size: 18px;
+        font-weight: bold;
+        
+    
+    }
+
+
+form .form-container .form-group input:focus{
+    box-shadow: 0px 0px 3px rgba(207, 30, 30, 0.849);
+}
+
+form .form-container input [type="submit"]{
+    display: inline-block;
+    padding: 10;
+    color: #3658b8;
+}
