@@ -6,7 +6,6 @@ import Contact from './routes/Contact';
 import Home from './routes/Home';
 import Service from './routes/Service';
 import SignIn from './routes/SignIn';
-import Dashboard from './routes/Dashboard';
 
 
 export default function App(){
@@ -18,7 +17,6 @@ export default function App(){
         <Route path="/service" element={<Service/>}/>
         <Route path="/contact" element={<Contact/>}/> 
         <Route path="/signin" element ={<SignIn/>}/>
-        <Route path="/home" element ={<Dashboard/>}/>
 
       </Routes>
 </div>

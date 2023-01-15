@@ -26,7 +26,7 @@ function LoginForm({Login,error}){
             <input type="text" name="password" id="password" onChange={e=> setDetails({...details,password:e.target.value })} value={details.password}></input>
         </div>
         <Button
-   onClick={() => navigate("/home")}>
+   onClick={() => navigate("/dashboard")}>
 click me
 </Button>
 

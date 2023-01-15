@@ -1,11 +1,15 @@
-import {createRoot }from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App';
 
-const root = createRoot(document.getElementById('root'));
-root.render(
+
+
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
+// Material Dashboard 2 React Context Provider
+
+ReactDOM.render(
   <BrowserRouter>
-    <App />
-  </BrowserRouter>
+      <App />
+  </BrowserRouter>,
+  document.getElementById("root")
 );
-
